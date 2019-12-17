@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Fragments.IndoFragment">
-
+    tools:context=".Fragments.ThaiFragment">
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="719dp"
@@ -34,7 +33,7 @@
                 android:orientation="vertical" >
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardviewindo4"
+                    android:id="@+id/cardviewthai1"
                     android:layout_width="match_parent"
                     android:layout_height="125dp"
                     android:layout_marginLeft="20dp"
@@ -46,21 +45,21 @@
                         android:layout_height="100dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="15dp"
-                        app:srcCompat="@drawable/bali" />
+                        app:srcCompat="@drawable/tomyum" />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:id="@+id/textViewthai1"
+                        android:layout_width="239dp"
                         android:layout_height="80dp"
                         android:layout_marginLeft="125dp"
                         android:layout_marginTop="40dp"
-                        android:text="        BALI"
+                        android:text=" TOMYUM"
                         android:textAlignment="center"
-                        android:textSize="30dp" />
-
+                        android:textSize="30sp" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardviewindo3"
+                    android:id="@+id/cardviewthai2"
                     android:layout_width="match_parent"
                     android:layout_height="125dp"
                     android:layout_marginLeft="20dp"
@@ -72,21 +71,20 @@
                         android:layout_height="100dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="15dp"
-                        app:srcCompat="@drawable/kalimantan" />
+                        app:srcCompat="@drawable/pad" />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:id="@+id/textViewthai1.1"
+                        android:layout_width="225dp"
                         android:layout_height="80dp"
                         android:layout_marginLeft="125dp"
                         android:layout_marginTop="40dp"
-                        android:text="    SULAWESI"
+                        android:text="PAD THAI"
                         android:textAlignment="center"
-                        android:textSize="30dp" />
-
+                        android:textSize="30sp" />
                 </androidx.cardview.widget.CardView>
-
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardviewindo2"
+                    android:id="@+id/cardviewthai3"
                     android:layout_width="match_parent"
                     android:layout_height="125dp"
                     android:layout_marginLeft="20dp"
@@ -98,21 +96,19 @@
                         android:layout_height="100dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="15dp"
-                        app:srcCompat="@drawable/kalimantan" />
+                        app:srcCompat="@drawable/som" />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="225dp"
                         android:layout_height="80dp"
                         android:layout_marginLeft="125dp"
                         android:layout_marginTop="40dp"
-                        android:text="  KALIMANTAN"
+                        android:text="SOM THAI"
                         android:textAlignment="center"
-                        android:textSize="30dp" />
-
+                        android:textSize="25sp" />
                 </androidx.cardview.widget.CardView>
-
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardviewindo1"
+                    android:id="@+id/cardviewthai4"
                     android:layout_width="match_parent"
                     android:layout_height="125dp"
                     android:layout_marginLeft="20dp"
@@ -124,22 +120,46 @@
                         android:layout_height="100dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="15dp"
-                        app:srcCompat="@drawable/jawa" />
+                        app:srcCompat="@drawable/ms" />
 
                     <TextView
-                        android:id="@+id/textView3"
-                        android:layout_width="wrap_content"
+                        android:layout_width="225dp"
                         android:layout_height="80dp"
                         android:layout_marginLeft="125dp"
                         android:layout_marginTop="40dp"
-                        android:text="      JAWA"
+                        android:text=" MANGGO
+                        STICKY RICE"
                         android:textAlignment="center"
-                        android:textSize="35dp" />
+                        android:textSize="25sp" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardviewthai5"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="20dp">
 
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        app:srcCompat="@drawable/khao" />
 
+                    <TextView
+                        android:layout_width="225dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="40dp"
+                        android:text=" KHAO TOM"
+                        android:textAlignment="center"
+                        android:textSize="25sp" />
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
         </ScrollView>
 
     </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

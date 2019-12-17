@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.TomyumFragment">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="719dp"
+        android:layout_height="345dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wel" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:src="@drawable/tomyum" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOM YUM (ต้มยำ)"
+            android:textAlignment="center"
+            android:textSize="30sp"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:text="Thailand terkenal dengan ​makanan yang pedas asam segar​​. ​Salah satunya ada sup tom yam ​yang ​diracik dengan ​beragam bahan. ​​Serai​, cabai hingga daun jeruk juga ​menjadi ciri khas sajian yang populer di dunia​.
+
+Tom yum merupakan sajian sup pedas dan asam yang banyak disajikan di beberapa negara seperti Kamboja, Brunei, Malaysia dan Singapura.
+
+Secara harfiah, kata tom yam berasal dari dua kata Thai yaitu 'tom' dan 'yam'. Tom mengacu pada proses perebusan, sementara yam mengacu pada jenis bumbu khas Thailand.
+
+Kuah kaldunya terbuat dari bahan-bahyan segar seperti serai, daun jeruk purut, lengkuas, air jeruk nipis, kecap ikan dan bubuk cabai.
+
+Ada beragam jenis tom yam. Untuk Tom Yam Goong biasanya diisi dengan udang sebagai bahan utamanya. Sedangkan Tom Yum Gai menggunakan ayam, jamur untuk versi vegetarian. Untuk isian ikan disebut dengan Tom Yam Pla dan untuk makanan laut yang dicampur disebut juga dengan Tom Yum Talay atau Tom Yum Po Taek.
+
+Tom yam ada dua versi, tom yam dengan santan (Tom Yam Gung Nam Kohn) atau tanpa santan (Tom Yam Gung Nam Sai) untuk versi kuah bening. Keduanya sama-sama memiliki paduan rasa asam, gurih, pedas dan sedikit manis.
+
+Jika penasaran dengan rasanya, Anda dapat mampir ke beberapa restoran otentik Thailand di Jakarta."></TextView>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

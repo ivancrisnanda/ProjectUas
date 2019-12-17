@@ -7,7 +7,8 @@ import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import com.example.project.Fragment.HomeFragment;
+import com.example.project.Fragments.HomeFragment;
+import com.example.project.Fragments.HomeFragment;
 import com.example.project.R;
 
 public class Home extends AppCompatActivity {

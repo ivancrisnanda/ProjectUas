@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.ManggoFragment">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="719dp"
+        android:layout_height="345dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wel" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:src="@drawable/manggo" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MANGGO STICKY RICE
+            (ผข้าวเหนียวมะม่วง)"
+            android:textAlignment="center"
+            android:textSize="30sp"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:text="Mango Sticky Rice dalam Bahasa Thai disebut Khao Neeo Mamuang. Makanan ini adalah makanan pencuci mulut dengan bahan-bahan yang Andakhas yakni ketan putih, mangga dan santan. Ketan putih atau Khao Neow dalam Bahasa Thai, bentuknya seperti beras atau nasi dengan rasa yang lebih manis dan teksturnya lebih lengket jika dibandingkan dengan nasi.
+
+Wujud Mango Sticky Rice ini berupa ketan putih yang ditambah dengan irisan mangga matang yang manis dan kemudian disiram dengan sedikit santan yang kental. Diatasnya lantas ditaburi dengan kacang kedelai yang diolah hingga renyah. Kombinasi ini terdengar agak aneh di telinga orang Indonesia yang belum pernah mencicipinya. Namun ternyata rasanya sungguh lezat dan membuat ketagihan.."></TextView>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
