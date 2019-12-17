@@ -7,7 +7,6 @@ import androidx.viewpager.widget.ViewPager;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,7 +16,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.project.R;
-import com.example.project.MainActivity;
 
 public class WelcomeActivity extends AppCompatActivity {
     private ViewPager viewPager;
@@ -47,7 +45,12 @@ public class WelcomeActivity extends AppCompatActivity {
         btnSkip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                launchHomeScreen();
+                launchHomeScreen();
+            }
+
+            private void launchHomeScreen() {
+                startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
+                finish();
             }
         });
 
@@ -66,6 +69,8 @@ public class WelcomeActivity extends AppCompatActivity {
             }
         });
     }
+
+
 
     private void addBottomDots(int currentPage) {
         dots = new TextView[layouts.length];
@@ -90,11 +95,10 @@ public class WelcomeActivity extends AppCompatActivity {
     private int getItem(int i) {
         return viewPager.getCurrentItem() + i;
     }
-
-//    private void launchHomeScreen() {
-//        startActivity(new Intent(WelcomeActivity.this, navigation.class));
-//        finish();
-//    }
+    private void launchHomeScreen() {
+        startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
+        finish();
+    }
 
     //  viewpager change listener
     ViewPager.OnPageChangeListener viewPagerPageChangeListener = new ViewPager.OnPageChangeListener() {
@@ -114,6 +118,7 @@ public class WelcomeActivity extends AppCompatActivity {
                 btnSkip.setVisibility(View.VISIBLE);
             }
         }
+
 
         @Override
         public void onPageScrolled(int arg0, float arg1, int arg2) {
