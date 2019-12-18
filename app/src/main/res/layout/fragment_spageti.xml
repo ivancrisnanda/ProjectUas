@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Fragments.PadthaiFragment">
+    tools:context=".Fragments.RavioliFragment">
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="719dp"
@@ -13,7 +13,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-         />
+        />
 
     <LinearLayout
         android:id="@+id/linearLayout1"
@@ -27,16 +27,15 @@
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="155dp"
-            app:srcCompat="@drawable/pad"/>
+            android:src="@drawable/spageti" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="PAD THAI (ผัดไทย)"
+            android:text="SPHAGETTI"
             android:textAlignment="center"
-            android:textSize="30sp"
-            />
+            android:textSize="30sp"/>
 
         <ScrollView
             android:layout_width="match_parent"
@@ -55,17 +54,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="17sp"
-                        android:text="Beragam variasi mie dikenal di Asia. SepertinPad Thai khas Thailand. Sajian mie goreng yang diberi bumbu dan rempah yang unik. Mie, udang kering, sayuran, dan lemon yang berpadu di dalamnya.
+                        android:text=" Sphagetti adalah salah satu jenis pasta yang berbentuk panjang, tipis, silindris, dan padat, yang jika diperhatikan menyerupai mie pada umumnya. Ini adalah makanan pokok dalam masakan Italia tradisional. Karena berbentuk seperti mie, kebanyakan orang menyebutnya mie dari Italia meskipun banyak varian pasta lainnya yang berbentuk seperti mie. Seperti pasta pada umumnya, spageti terbuat dari gandum giling dan air. Spageti Italia terbuat dari semolina gandum durum, tetapi di tempat lain bisa dibuat dengan tepung jenis lain[2].
 
-Menurut catatan sejarah, Pad Thai atau Kway Teow Pad Thai sebenarnya bukan sajian asli Thailand. Mie sebagai bahan utamanya bukanlah makanan yang berasal dari negeri gajah putih ini, namun pengaruh dari Tiongkok.
+Awalnya ukuran spageti sangat panjang, tetapi kemudian yang berukuran lebih pendek semakin populer selama paruh kedua abad ke-20 dan sekarang spageti paling banyak tersedia dalam ukuran panjang 25–30 cm (10–12 in). Beberapa varian hidangan pasta berasal dari pasta jenis ini sebagai dasar.">
 
-Menu ini tergolong lengkap dan mengenyangkan. Selain mie ada udang, tauge, lobak, kacang, dan telur dadar. Rasa manis, gurih, dan sedikit asam dari jeruk lemon berpadu serasi. Dahulu, Pad Thai lebih sering hadir sebagai makanan kaki lima dan disajikan di atas daun pisang dan koran.
-
-Kabarnya, sebelum tahun 1940-an, Pad Thai belum terkenal seperti sekarang. Menjadi populer ketika seorang Plaek Pibulsongkram yang diketahui sebagai diktator Thailand dari tahun 1938 - 1944 dan 1948 – 1957 memutuskan bahwa Thailand membutuhkan mie untuk memajukan industri dan ekonomi.
-
-Setelah mengganti nama Siam menjadi Thailand, ia juga mengganti kebiasaan orang Thailand memakai tangan untuk makan dengan menggunakan sendok dan garpu. Selain itu, ia memperkenalkan Pad Thai, menu buatan rumahnya untuk dinikmati masyarakat Thailand. Mengonsumsi Pad Thai pada zaman itu adalah suatu tindakan patriotik. Hebatnya tetap dipertahankan masyarakat Thailand hingga sekarang.
-
-Pemilihan mie dalam Pad Thai karena banyaknya keturunan Tiongkok yang ada di Thailand. Wujud Pad Thai juga hasil campuran dari berbagai bangsa. Mie yang digunakan mirip seperti Pho atau mie khas Vietnam. Sedangkan, Pad Thai juga menggunakan asam seperti makanan khas India."></TextView>
+                    </TextView>
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
         </ScrollView>

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Fragments.ThaiFragment">
+    tools:context=".Fragments.ItalyFragment">
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="719dp"
@@ -13,7 +13,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-         />
+        />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -33,7 +33,7 @@
                 android:orientation="vertical" >
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardviewthai1"
+                    android:id="@+id/cardviewitaly1"
                     android:layout_width="match_parent"
                     android:layout_height="125dp"
                     android:layout_marginLeft="20dp"
@@ -45,21 +45,22 @@
                         android:layout_height="100dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="15dp"
-                        app:srcCompat="@drawable/tomyam"/>
+                        app:srcCompat="@drawable/gnocchi"
+                        />
 
                     <TextView
-                        android:id="@+id/textViewthai1"
+                        android:id="@+id/textViewitaly1"
                         android:layout_width="239dp"
                         android:layout_height="80dp"
                         android:layout_marginLeft="125dp"
                         android:layout_marginTop="40dp"
-                        android:text=" TOMYUM"
+                        android:text=" GNOCCHI"
                         android:textAlignment="center"
                         android:textSize="30sp" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardviewthai2"
+                    android:id="@+id/cardviewitaly2"
                     android:layout_width="match_parent"
                     android:layout_height="125dp"
                     android:layout_marginLeft="20dp"
@@ -71,20 +72,20 @@
                         android:layout_height="100dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="15dp"
-                        app:srcCompat="@drawable/pad" />
+                        app:srcCompat="@drawable/ravioli"/>
 
                     <TextView
-                        android:id="@+id/textViewthai1.1"
+                        android:id="@+id/textViewitaly2"
                         android:layout_width="225dp"
                         android:layout_height="80dp"
                         android:layout_marginLeft="125dp"
                         android:layout_marginTop="40dp"
-                        android:text="PAD THAI"
+                        android:text="RAVIOLI"
                         android:textAlignment="center"
                         android:textSize="30sp" />
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardviewthai3"
+                    android:id="@+id/cardviewitaly3"
                     android:layout_width="match_parent"
                     android:layout_height="125dp"
                     android:layout_marginLeft="20dp"
@@ -96,19 +97,19 @@
                         android:layout_height="100dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="15dp"
-                        app:srcCompat="@drawable/som"/>
+                        app:srcCompat="@drawable/carbonara"/>
 
                     <TextView
                         android:layout_width="225dp"
                         android:layout_height="80dp"
                         android:layout_marginLeft="125dp"
                         android:layout_marginTop="40dp"
-                        android:text="SOM THAI"
+                        android:text="PASTA CARBONARA"
                         android:textAlignment="center"
                         android:textSize="25sp" />
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardviewthai4"
+                    android:id="@+id/cardviewitaly4"
                     android:layout_width="match_parent"
                     android:layout_height="125dp"
                     android:layout_marginLeft="20dp"
@@ -120,20 +121,19 @@
                         android:layout_height="100dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="15dp"
-                        app:srcCompat="@drawable/msr"/>
+                        app:srcCompat="@drawable/spageti"/>
 
                     <TextView
                         android:layout_width="225dp"
                         android:layout_height="80dp"
                         android:layout_marginLeft="125dp"
                         android:layout_marginTop="40dp"
-                        android:text=" MANGGO
-                        STICKY RICE"
+                        android:text=" SPAGHETTI"
                         android:textAlignment="center"
                         android:textSize="25sp" />
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardviewthai5"
+                    android:id="@+id/cardviewitaly5"
                     android:layout_width="match_parent"
                     android:layout_height="125dp"
                     android:layout_marginLeft="20dp"
@@ -145,14 +145,14 @@
                         android:layout_height="100dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="15dp"
-                        app:srcCompat="@drawable/kao"/>
+                        app:srcCompat="@drawable/lasagna"/>
 
                     <TextView
                         android:layout_width="225dp"
                         android:layout_height="80dp"
                         android:layout_marginLeft="125dp"
                         android:layout_marginTop="40dp"
-                        android:text=" KHAO TOM"
+                        android:text=" LASAGNA"
                         android:textAlignment="center"
                         android:textSize="25sp" />
                 </androidx.cardview.widget.CardView>

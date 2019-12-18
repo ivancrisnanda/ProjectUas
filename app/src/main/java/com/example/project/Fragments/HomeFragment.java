@@ -55,6 +55,20 @@ public class HomeFragment extends Fragment {
                         .commit();
             }
         });
+
+        CardView cardView3 = (CardView) view.findViewById(R.id.cardviewitaly);
+        cardView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Bundle bundle = new Bundle();
+                ItalyFragment f = new ItalyFragment();
+                f.setArguments(bundle);
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.fragment_container, f)
+                        .addToBackStack(null)
+                        .commit();
+            }
+        });
         return view;
     }
 

@@ -27,7 +27,7 @@
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="155dp"
-            android:src="@drawable/manggo" />
+            app:srcCompat="@drawable/msr"/>
 
         <TextView
             android:id="@+id/textView"

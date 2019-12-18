@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Fragments.PadthaiFragment">
+    tools:context=".Fragments.RavioliFragment">
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="719dp"
@@ -13,7 +13,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-         />
+        />
 
     <LinearLayout
         android:id="@+id/linearLayout1"
@@ -27,16 +27,15 @@
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="155dp"
-            app:srcCompat="@drawable/pad"/>
+            android:src="@drawable/ravioli" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="PAD THAI (ผัดไทย)"
+            android:text="RAVIOLI"
             android:textAlignment="center"
-            android:textSize="30sp"
-            />
+            android:textSize="30sp"/>
 
         <ScrollView
             android:layout_width="match_parent"
@@ -55,17 +54,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="17sp"
-                        android:text="Beragam variasi mie dikenal di Asia. SepertinPad Thai khas Thailand. Sajian mie goreng yang diberi bumbu dan rempah yang unik. Mie, udang kering, sayuran, dan lemon yang berpadu di dalamnya.
+                        android:text=" Ravioli adalah salah satu jenis pasta Italia yang cukup unik. Berbeda dengan spaghetti atau fettucini yang bentuknya menyerupai mi, ravioli berbentuk pipih dengan pinggiran unik berbentuk segitiga bergerigi. Sedangkan untuk bahan pembuatnya tak berbeda dengan membuat adonan pasta pada umumnya yaitu campuran tepung terigu, tepung salmolina, air dan telur.
 
-Menurut catatan sejarah, Pad Thai atau Kway Teow Pad Thai sebenarnya bukan sajian asli Thailand. Mie sebagai bahan utamanya bukanlah makanan yang berasal dari negeri gajah putih ini, namun pengaruh dari Tiongkok.
+Dibandingkan pasta jenis lainnya, ravioli memiliki berbagai variasi bentuk seperti segi empat, segi tiga atau bulat di bagian tengahnya. Bagian tengahnya itulah yang biasanya diisi dengan berbagai isian seperti keju ricotta dan bayam untuk jenis ravioli klasik. Selain kedua isian tersebut banyak juga varian isi lainnya seperti daging sapi cincang atau daging ayam dan bahkan daging ikan.
+">
 
-Menu ini tergolong lengkap dan mengenyangkan. Selain mie ada udang, tauge, lobak, kacang, dan telur dadar. Rasa manis, gurih, dan sedikit asam dari jeruk lemon berpadu serasi. Dahulu, Pad Thai lebih sering hadir sebagai makanan kaki lima dan disajikan di atas daun pisang dan koran.
-
-Kabarnya, sebelum tahun 1940-an, Pad Thai belum terkenal seperti sekarang. Menjadi populer ketika seorang Plaek Pibulsongkram yang diketahui sebagai diktator Thailand dari tahun 1938 - 1944 dan 1948 – 1957 memutuskan bahwa Thailand membutuhkan mie untuk memajukan industri dan ekonomi.
-
-Setelah mengganti nama Siam menjadi Thailand, ia juga mengganti kebiasaan orang Thailand memakai tangan untuk makan dengan menggunakan sendok dan garpu. Selain itu, ia memperkenalkan Pad Thai, menu buatan rumahnya untuk dinikmati masyarakat Thailand. Mengonsumsi Pad Thai pada zaman itu adalah suatu tindakan patriotik. Hebatnya tetap dipertahankan masyarakat Thailand hingga sekarang.
-
-Pemilihan mie dalam Pad Thai karena banyaknya keturunan Tiongkok yang ada di Thailand. Wujud Pad Thai juga hasil campuran dari berbagai bangsa. Mie yang digunakan mirip seperti Pho atau mie khas Vietnam. Sedangkan, Pad Thai juga menggunakan asam seperti makanan khas India."></TextView>
+                    </TextView>
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
         </ScrollView>
