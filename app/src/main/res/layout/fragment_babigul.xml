@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Fragments.SomthaiFragment">
+    tools:context=".Fragments.BabigulFragment">
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="719dp"
@@ -13,7 +13,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-     />
+        />
 
     <LinearLayout
         android:id="@+id/linearLayout1"
@@ -27,13 +27,13 @@
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="155dp"
-            android:src="@drawable/somtam" />
+            android:src="@drawable/nasibabi" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="PAD THAI (ผัดไทย)"
+            android:text="BABI GULING"
             android:textAlignment="center"
             android:textSize="30sp"/>
 
@@ -54,8 +54,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="17sp"
-                        android:text="Som tam atau selada pepaya mentah adalah selada berbumbu agak pedas yang terbuat dari irisan tipis pepaya mentah.
-                                    Hidangan ini menggabungkan lima rasa dasar masakan setempat: asam limau, pedas cabai, asin, gurih dari kecap ikan, dan rasa manis dari gula jawa. bahan-bahan diaduk dan diulek dengan menggunakan cobek dan ulekan; Nama dalam bahasa Lao tam som secara harfiah berarti asam tumbuk, akan tetapi nama khusus Lao lain tam maak hoong secara harfiah bermakna pepaya tumbuk. Dalam bahasa Khmer, disebut bok l'hong juga bermakna pepaya tumbuk. Dalam bahasa Thai, nama som tam, (kebalikan nama Lao), secara harfiah bermakna asam tumbuk. Akan tetapi, jenis selada di Thailand juga konsisten dengan kelaziman nama Lao dengan kata tam (tumbuk) disebutkan dahulu.
+                        android:text="Babi guling (di Bali disebut be guling) adalah sejenis makanan yang terbuat dari anak babi betina atau jantan yang perutnya diisikan dengan bumbu dan sayuran seperti daun ketela pohon dan lalu dipanggang sambil diputar-putar (diguling-gulingkan) sampai matang dengan ditandai dengan perubahan warna kulit menjadi kecoklatan dan renyah. Awalnya babi guling pada mulanya digunakan untuk sajian pada upacara baik upacara adat maupun upacara keagamaan, tetapi saat ini babi guling telah dijual sebagai hidangan baik di warung-warung, rumah makan, bahkan hotel-hotel tertentu di daerah Bali dan lainnya.
+   Di Indonesia babi panggang umum disebut babi guling, masakan babi panggang atau bakar jarang ditemukan secara umum karena Indonesia adalah negara mayoritas muslim, kecuali dalam provinsi mayoritas non-muslim, seperti Hindu Bali dan tanah Batak Kristen di Sumatra Utara, orang Minahasa di Sulawesi Utara, Toraja di Sulawesi Selatan, Papua, orang Dayak di Kalimantan dan juga di antara orang Tionghoa Indonesia. Di Bali babi guling biasanya disajikan dengan nasi lawar dan itu adalah hidangan populer di restoran dan warung Bali.[4] Nama babi guling untuk daerah Bali lebih dikenal dengan be guling. Sebetulnya be guling dapat dibuat dari jenis daging lainnya seperti itik dan ayam. Babi guling yang paling terkenal berasal dari kabupaten Gianyar. Dalam tradisi orang Batak, babi guling merupakan prasyarat dalam penawaran pernikahan untuk keluarga pengantin. Pada babi Papua dan ubi jalar dipanggang di batu dipanaskan diisi lubang digali di tanah dan ditutupi dengan daun, metode memasak ini disebut bakar batu (pembakaran batu), dan itu merupakan peristiwa budaya dan sosial yang penting antara orang-orang Papua.
 "></TextView>   </androidx.cardview.widget.CardView>
             </LinearLayout>
         </ScrollView>

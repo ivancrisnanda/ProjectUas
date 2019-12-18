@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Fragments.SomthaiFragment">
+    tools:context=".Fragments.SateliFragment">
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="719dp"
@@ -13,7 +13,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-     />
+        />
 
     <LinearLayout
         android:id="@+id/linearLayout1"
@@ -27,13 +27,13 @@
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="155dp"
-            android:src="@drawable/somtam" />
+            android:src="@drawable/satel" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="PAD THAI (ผัดไทย)"
+            android:text="SATE LILIT"
             android:textAlignment="center"
             android:textSize="30sp"/>
 
@@ -54,8 +54,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="17sp"
-                        android:text="Som tam atau selada pepaya mentah adalah selada berbumbu agak pedas yang terbuat dari irisan tipis pepaya mentah.
-                                    Hidangan ini menggabungkan lima rasa dasar masakan setempat: asam limau, pedas cabai, asin, gurih dari kecap ikan, dan rasa manis dari gula jawa. bahan-bahan diaduk dan diulek dengan menggunakan cobek dan ulekan; Nama dalam bahasa Lao tam som secara harfiah berarti asam tumbuk, akan tetapi nama khusus Lao lain tam maak hoong secara harfiah bermakna pepaya tumbuk. Dalam bahasa Khmer, disebut bok l'hong juga bermakna pepaya tumbuk. Dalam bahasa Thai, nama som tam, (kebalikan nama Lao), secara harfiah bermakna asam tumbuk. Akan tetapi, jenis selada di Thailand juga konsisten dengan kelaziman nama Lao dengan kata tam (tumbuk) disebutkan dahulu.
+                        android:text="Liburan ke Bali, salah satu hal yang wajib dilakukan adalah wisata kuliner, mencoba berbagai makanan khas yang tidak ada di kotamu. Salah satu makanan wajib coba adalah sate lilit. Pasti makanan ini sudah tak asing di telingamu. Meski begitu, belum banyak yang tahu seperti apa sejarah dan filosofi sate lilit hingga jadi salah satu makanan khas Bali.
+
+Dilansir dari Wikipedia, istilah lilit dalam bahasa Bali dan Indonesia berarti membungkus, seperti wujud asli sate lilit yang memang dililitkan pada tusuk sate yang tebal dan lebar dari sate biasanya yang terbuat dari batang serai atau bambu.
+Dulunya sate lilit hanya dibuat dari daging babi dan ikan, namun karena banyak permintaan dan menysuaikan konsumen yang tak bisa makan daging babi, maka dibuat pula sate lilit dari daging sapi dan ayam.
 "></TextView>   </androidx.cardview.widget.CardView>
             </LinearLayout>
         </ScrollView>

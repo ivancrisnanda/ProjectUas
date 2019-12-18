@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Fragments.SomthaiFragment">
+    tools:context=".Fragments.NasijiFragment">
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="719dp"
@@ -13,7 +13,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-     />
+        />
 
     <LinearLayout
         android:id="@+id/linearLayout1"
@@ -27,13 +27,13 @@
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="155dp"
-            android:src="@drawable/somtam" />
+            android:src="@drawable/nasijinggo" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="PAD THAI (ผัดไทย)"
+            android:text="NASI JINGGO"
             android:textAlignment="center"
             android:textSize="30sp"/>
 
@@ -54,8 +54,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="17sp"
-                        android:text="Som tam atau selada pepaya mentah adalah selada berbumbu agak pedas yang terbuat dari irisan tipis pepaya mentah.
-                                    Hidangan ini menggabungkan lima rasa dasar masakan setempat: asam limau, pedas cabai, asin, gurih dari kecap ikan, dan rasa manis dari gula jawa. bahan-bahan diaduk dan diulek dengan menggunakan cobek dan ulekan; Nama dalam bahasa Lao tam som secara harfiah berarti asam tumbuk, akan tetapi nama khusus Lao lain tam maak hoong secara harfiah bermakna pepaya tumbuk. Dalam bahasa Khmer, disebut bok l'hong juga bermakna pepaya tumbuk. Dalam bahasa Thai, nama som tam, (kebalikan nama Lao), secara harfiah bermakna asam tumbuk. Akan tetapi, jenis selada di Thailand juga konsisten dengan kelaziman nama Lao dengan kata tam (tumbuk) disebutkan dahulu.
+                        android:text="Nasi jenggo (atau nasi jinggo) adalah makanan siap saji khas Bali yang dikemasan daun pisang dengan porsi kecil. Sebelum krismon tahun 1997, nasi jenggo dijual per porsi seharga Rp 1500,- (dalam bahasa Hokkien, jeng go memiliki arti seribu lima ratus). Kini, harga satu porsi nasi jenggo adalah sekitar Rp 2000,- sampai Rp 4000,-.Karena porsi nasi jenggo sangat sedikit, pembeli biasanya membeli nasi jinggo sebanyak beberapa bungkus agar dapat kenyang.
+
+Selain dijual di jalan, kini nasi jinggo menjadi sajian alternatif untuk berbagai upacara religius seperti ngaben, perayaan ulang tahun, dan rapat.Nasi jinggo disajikan dalam kemasan daun pisang. Isinya adalah nasi putih sekepalan tangan dengan lauk-pauk dan sambal. Lauk-pauk yang digunakan biasanya adalah sambal goreng tempe, serundeng, dan ayam suwir. Penjual nasi jinggo sekarang juga menjual nasi jinggo dengan nasi kuning, sementara lauknya divariasi dengan daging sapi atau babi. Selain itu, nasi jinggo juga bisa disajikan dengan mie goreng dan telur.
 "></TextView>   </androidx.cardview.widget.CardView>
             </LinearLayout>
         </ScrollView>
