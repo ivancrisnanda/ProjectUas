@@ -15,10 +15,10 @@ import com.example.project.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class IndoFragment extends Fragment {
+public class JawaFragment extends Fragment {
 
 
-    public IndoFragment() {
+    public JawaFragment() {
         // Required empty public constructor
     }
 
@@ -27,14 +27,15 @@ public class IndoFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_indo, container, false);
 
-        CardView cardView1 = (CardView) view.findViewById(R.id.cardviewindo4);
+        View view = inflater.inflate(R.layout.fragment_jawa, container, false);
+
+        CardView cardView1 = (CardView) view.findViewById(R.id.cardviewrujak);
         cardView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                BaliFragment f = new BaliFragment();
+                RujalFragment f = new RujalFragment();
                 f.setArguments(bundle);
                 getActivity().getSupportFragmentManager().beginTransaction()
                         .replace(R.id.fragment_container, f)
@@ -43,12 +44,12 @@ public class IndoFragment extends Fragment {
             }
         });
 
-        CardView cardView2 = (CardView) view.findViewById(R.id.cardviewindo3);
+        CardView cardView2 = (CardView) view.findViewById(R.id.cardviewgudeg);
         cardView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                SulawesiFragment f = new SulawesiFragment();
+                GudegFragment f = new GudegFragment();
                 f.setArguments(bundle);
                 getActivity().getSupportFragmentManager().beginTransaction()
                         .replace(R.id.fragment_container, f)
@@ -57,12 +58,12 @@ public class IndoFragment extends Fragment {
             }
         });
 
-        CardView cardView3 = (CardView) view.findViewById(R.id.cardviewindo1);
+        CardView cardView3 = (CardView) view.findViewById(R.id.cardviewketoprak);
         cardView3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                JawaFragment f = new JawaFragment();
+                KetoprakFragment f = new KetoprakFragment();
                 f.setArguments(bundle);
                 getActivity().getSupportFragmentManager().beginTransaction()
                         .replace(R.id.fragment_container, f)

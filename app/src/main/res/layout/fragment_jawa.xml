@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Fragments.BaliFragment">
+    tools:context=".Fragments.JawaFragment">
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="719dp"
@@ -33,7 +33,7 @@
                 android:orientation="vertical" >
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardviewbali1"
+                    android:id="@+id/cardviewrujak"
                     android:layout_width="match_parent"
                     android:layout_height="125dp"
                     android:layout_marginLeft="20dp"
@@ -45,20 +45,20 @@
                         android:layout_height="100dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="15dp"
-                        app:srcCompat="@drawable/satel" />
+                        app:srcCompat="@drawable/rujak" />
 
                     <TextView
                         android:layout_width="239dp"
                         android:layout_height="80dp"
                         android:layout_marginLeft="125dp"
                         android:layout_marginTop="40dp"
-                        android:text=" SATE LILIT"
+                        android:text="RUJAK CINGUR"
                         android:textAlignment="center"
-                        android:textSize="25sp" />
+                        android:textSize="23sp" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardviewbali2"
+                    android:id="@+id/cardviewgudeg"
                     android:layout_width="match_parent"
                     android:layout_height="125dp"
                     android:layout_marginLeft="20dp"
@@ -70,19 +70,19 @@
                         android:layout_height="100dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="15dp"
-                        app:srcCompat="@drawable/nasibabi" />
+                        app:srcCompat="@drawable/gudeg" />
 
                     <TextView
                         android:layout_width="225dp"
                         android:layout_height="80dp"
                         android:layout_marginLeft="125dp"
                         android:layout_marginTop="40dp"
-                        android:text=" BABI GULING"
+                        android:text="GUDEG"
                         android:textAlignment="center"
                         android:textSize="25sp" />
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardviewbali3"
+                    android:id="@+id/cardviewbatagor"
                     android:layout_width="match_parent"
                     android:layout_height="125dp"
                     android:layout_marginLeft="20dp"
@@ -94,19 +94,19 @@
                         android:layout_height="100dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="15dp"
-                        app:srcCompat="@drawable/nasijinggo" />
+                        app:srcCompat="@drawable/batagor" />
 
                     <TextView
                         android:layout_width="225dp"
                         android:layout_height="80dp"
                         android:layout_marginLeft="125dp"
                         android:layout_marginTop="40dp"
-                        android:text="NASI JINGGO"
+                        android:text="BATAGOR"
                         android:textAlignment="center"
                         android:textSize="25sp" />
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardviewbali4"
+                    android:id="@+id/cardviewketoprak"
                     android:layout_width="match_parent"
                     android:layout_height="125dp"
                     android:layout_marginLeft="20dp"
@@ -118,18 +118,18 @@
                         android:layout_height="100dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="15dp"
-                        app:srcCompat="@drawable/komoh" />
+                        app:srcCompat="@drawable/ketoprak" />
 
                     <TextView
                         android:layout_width="225dp"
                         android:layout_height="80dp"
                         android:layout_marginLeft="125dp"
                         android:layout_marginTop="40dp"
-                        android:text=" KOMOH"
+                        android:text="KETOPRAK"
                         android:textAlignment="center"
                         android:textSize="25sp" />
                 </androidx.cardview.widget.CardView>
-                
+
             </LinearLayout>
         </ScrollView>
 
