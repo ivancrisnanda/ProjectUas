@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.KomohFragment">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="719dp"
+        android:layout_height="345dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:src="@drawable/paella" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PAELLA VALENCIANA"
+            android:textAlignment="center"
+            android:textSize="30sp"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:text=" adalah hidangan nasi khas dari Valencia, Spanyol. Paella memiliki akar sejarah kuno, tetapi tampilan modernnya berasal dari pertengahan abad ke-19 di daerah sekitar Teluk Albufera di pantai timur Spanyol, bersebelahan dengan kota Valencia. Banyak orang non-Spanyol memandang paella sebagai hidangan nasional Spanyol, tetapi kebanyakan orang Spanyol menganggapnya sebagai hidangan dari daerah Valencia. Masyarakat Valencia, pada gilirannya, menganggap paella sebagai salah satu simbol bagi daerah mereka.
+
+Variasi dari paella bermacam-macam. Termasuk diantaranya paella Valencia, paella sayuran (Spanyol: paella de verduras), paella seafood (Spanyol: paella de marisco), dan paella campur (Spanyol: paella mixta), serta beberapa varian lainnya. Paella Valencia dipercaya merupakan resep paella yang asli[2] dan terdiri dari nasi putih, kacang hijau (bajoqueta dan tavella), daging (ayam, bebek, dan kelinci), kacang putih (garrofón), siput, dan berbagai macam bumbu seperti saffron dan rosemary. Bumbu yang juga umum dipakai tetapi musiman adalah artichoke. Paella seafood mengganti daging dengan makanan laut serta menghilangkan kacang dan sayuran hijau. Paella campur adalah kombinasi bebas yang terdiri dari daging dari hewan darat, makanan laut, sayuran, dan kadang kacang. Kebanyakan koki paella menggunakan beras bomba[3] karena cenderung tidak terlalu matang, tetapi orang Valencia cenderung menggunakan varian beras yang sedikit lengket (dan cukup sulit untuk cepat matang) yang dikenal sebagai Senia. Semua jenis paella menggunakan minyak zaitun"></TextView>   </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
